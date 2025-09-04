@@ -1,6 +1,4 @@
 #QUESTION 1
-#Basic Calculator
-
 #Defining each operation
 def addition(num1, num2):
     return f"Result: {num1+num2}"
@@ -55,6 +53,7 @@ except Exception as e:
 
 
 
+
 #QUESTION 2
 while True:
     user_input = input("Enter a number (or type 'exit' to quit): ").lower()
@@ -68,6 +67,7 @@ while True:
         print("The number is even.")
     else:
         print("The number is odd")
+
 
 
 
